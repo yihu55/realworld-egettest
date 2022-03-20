@@ -8,7 +8,7 @@ Starta servern genom att köra kommandot `node app.js`
 
 ## Postman
 
-Projektet innehåller även en Postman-collection (se https://github.com/chreke/backend2-realworld/blob/master/api/RealWorld.postman_collection.json) som ni kan använda för att 
+Projektet innehåller även en [Postman-collection](api/RealWorld.postman_collection.json) som ni kan använda för att 
 
 För att köra alla Postman-tester kan ni använda:
 
@@ -27,6 +27,6 @@ npx newman run api/RealWorld.postman_collection.json \
  - `$PASSWORD` ska vara ett lösenord
  - `$EMAIL` ska vara en email-address
 
-Det finns även ett shell-script som kör alla tester: https://github.com/chreke/backend2-realworld/blob/master/api/run-api-tests.sh
+Det finns även ett shell-script som kör alla tester: [run-api-tests.sh](api/run-api-tests.sh)
 
 Scriptet skapar automatiskt nya värden för `USERNAME` och `EMAIL`, vilket gör det lättare att köra upprepade gånger.
