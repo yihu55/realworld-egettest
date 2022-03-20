@@ -4,9 +4,11 @@ Utgå från det här projektet när ni gör er gruppuppgift.
 
 Projektet innehåller en server som levererar frontenden för er uppgift, samt ett skal för en Express-backend där ni får fylla på med era egna routes.
 
+Starta servern genom att köra kommandot `node app.js`
+
 ## Postman
 
-
+Projektet innehåller även en Postman-collection (se https://github.com/chreke/backend2-realworld/blob/master/api/RealWorld.postman_collection.json) som ni kan använda för att 
 
 För att köra alla Postman-tester kan ni använda:
 
@@ -20,4 +22,11 @@ npx newman run api/RealWorld.postman_collection.json \
   "$@"
 ```
 
-`$APIURL` ska vara URL:en till ert API, e.g. `http://localhost:3000`
+ - `$APIURL` ska vara URL:en till ert API, e.g. `http://localhost:3000`
+ - `$USERNAME` ska vara ett unikt användarnamn
+ - `$PASSWORD` ska vara ett lösenord
+ - `$EMAIL` ska vara en email-address
+
+Det finns även ett shell-script som kör alla tester: https://github.com/chreke/backend2-realworld/blob/master/api/run-api-tests.sh
+
+Scriptet skapar automatiskt nya värden för `USERNAME` och `EMAIL`, vilket gör det lättare att köra upprepade gånger.
