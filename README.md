@@ -4,7 +4,7 @@ Utgå från det här projektet när ni gör er gruppuppgift.
 
 Projektet innehåller en server som levererar frontenden för er uppgift, samt ett skal för en Express-backend där ni får fylla på med era egna routes.
 
-Starta servern genom att köra kommandot `node app.js` -- ni bör nu kunna komma åt ett färdigt frontend på http://localhost:3000
+Starta servern genom att köra kommandot `node app.js`---ni bör nu kunna komma åt ett färdigt frontend på http://localhost:3000
 
 ## Postman
 
